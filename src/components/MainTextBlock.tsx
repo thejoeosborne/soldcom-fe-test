@@ -1,14 +1,18 @@
 export default function MainTextBlock({
   title,
   content,
+  subContent,
 }: {
   title: string;
   content: string;
+  subContent?: string;
 }) {
   return (
-    <div className="bg-transparent p-6 text-white rounded-lg shadow-md w-1/6">
-      <h3 className="text-xl font-semibold mb-2">{title}</h3>
-      <p className="text-sm">{content}</p>
+    <div className="bg-transparent p-2 lg:p-6 text-white rounded-lg w-auto lg:w-[calc(50vh)]">
+      <h3 className="text-2xl font-semibold mb-2">{title}</h3>
+      <p className="text-base">{content}</p>
+      <br></br>
+      <p className="text-base">{subContent}</p>
     </div>
   );
 }
