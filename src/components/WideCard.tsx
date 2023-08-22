@@ -4,7 +4,7 @@ import RankSubCard from "./RankSubCard";
 export default function WideCard() {
   return (
     <div className="grid place-items-center">
-      <div className="bg-white grid grid-cols-1 lg:grid-cols-2 shadow-md rounded-lg p-6 pt-10 mt-10 md:mt-0 md:px-18 w-5/6">
+      <div className="bg-white gap-2 grid grid-cols-1 lg:grid-cols-2 shadow-md rounded-lg p-6 pt-10 mt-10 md:mt-0 md:px-18 w-5/6">
         <div className="flex gap-4 flex-col md:px-10 md:pr-16 text-start">
           <p className="text-lg">
             Our referrals are routed to the top performing agents in our
