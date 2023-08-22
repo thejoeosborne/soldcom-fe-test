@@ -4,7 +4,7 @@ export default function OriginationCard() {
   const imgSize = 35;
   return (
     <>
-      <div className="bg-white flex flex-col gap-6 rounded-lg p-6 w-full lg:w-auto">
+      <div className="bg-white flex flex-col gap-6 rounded-lg p-6 w-full lg:w-auto lg:mr-12">
         <div>
           <p className="text-sm lg:text-lg">
             In your zips over the last 18 months, we{"'"}ve originated:

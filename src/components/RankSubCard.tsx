@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function RankSubCard() {
   const arrowImgSize = 10;
   return (
-    <div className="bg-grayBackground rounded-lg p-6 grid grid-cols-1 gap-2">
+    <div className="bg-grayBackground rounded-lg p-6 grid grid-cols-1 gap-2 mt-6 md:mt-0">
       <div className="grid grid-cols-12 justify-between place-items-center">
         <div className="col-span-9 lg:col-span-7">
           <p className="text-xl md:text-2xl text-dark font-bold">
