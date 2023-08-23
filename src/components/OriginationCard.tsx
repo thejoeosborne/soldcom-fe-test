@@ -25,8 +25,8 @@ export default function OriginationCard() {
           />
           <p className="text-3xl text-dark">$20M</p>
           <p className="text-3xl text-dark">$500k</p>
-          <p className="text-sm text-dark">in sales</p>
-          <p className="text-sm text-dark">in Commissions (est)</p>
+          <p className="text-xs md:text-sm text-dark">in sales</p>
+          <p className="text-xs md:text-sm text-dark">in Commissions (est)</p>
         </div>
       </div>
     </>

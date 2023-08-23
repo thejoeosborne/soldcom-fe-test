@@ -21,10 +21,15 @@ module.exports = {
     },
     extend: {
       colors: {
+        //normally would split these up into different themes and create a gradiant for each color in each theme
+        //for now just hard coding the colors needed
         dark: "#25282A",
         grayBackground: "#F5F8FA",
+        grayBorder: "#EBEAED",
         darkRed: "#E82418",
-        customRed: "#F93822"
+        customRed: "#F93822",
+        customLightBlue: "#00A3E0",
+        customGreen: "#84AE2B",
       },
     },
   },
